@@ -4,6 +4,10 @@ body {
     cursor: url("beetle.svg"), auto;
 }
 
+a:hover {
+    cursor: url("flame.svg"), auto;
+}
+
 .Smoke-BG {
     position: absolute;
     mix-blend-mode: screen;
