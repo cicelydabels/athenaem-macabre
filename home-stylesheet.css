@@ -1,7 +1,7 @@
 body {
     background-color:darkslategray;
     margin-bottom: 100px;
-    cursor: url("assets/beetle.svg"), auto;
+    cursor: url("beetle.svg"), auto;
 }
 
 .Smoke-BG {
