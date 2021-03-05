@@ -1,0 +1,35 @@
+body {
+    background-color:rgb(0, 0, 0);
+    cursor: url("assets/beetle.svg"), auto;
+    font-family: "IM Fell Double Pica";
+}
+
+.statue {
+    margin-top: -10px;
+    margin-left: -10px;
+    mix-blend-mode: hard-light;
+}
+
+.references {
+    position: absolute;
+    font-family: "IM Fell Double Pica";
+    color:floralwhite;
+    margin-left: 580;
+}
+
+.rectangle {
+    position: absolute;
+    height: 400px;
+    width: 150px;
+    background-color:rgb(0, 0, 0);
+    margin-top: -950px;
+    margin-left: 555px;
+    opacity: 0%;
+}
+
+.rectangle:hover {
+    background-color:darkgray;
+    opacity: 100%;
+    box-shadow: 30px 30px 30px 30px brown;
+    mix-blend-mode:color-burn;
+}

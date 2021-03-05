@@ -1,0 +1,66 @@
+body {
+    background-color: floralwhite;
+    margin-bottom: 550px;
+    cursor: url("assets/beetle.svg"), auto;
+}
+
+h1 {
+    color:rgb(0, 0, 0);
+    font-family: "Italianno";
+    font-size: 36pt;
+    text-align: center;
+    /*margin-left: 300;*/
+    margin-top: 100px;
+}
+
+h2 {
+    color:rgb(10, 10, 10);
+    font-family: "IM Fell Double Pica";
+    font-size: 10pt;
+    text-align: center;
+    /*margin-left: 300;*/
+
+}
+
+p {
+    color: rgb(20, 20, 20);
+    font-family: "Halant";
+    font-size: 12pt;
+    margin-left: 150pt;
+    margin-right: 150pt;
+}
+
+#statue {
+    position:absolute;
+    margin-top: 1000px;
+    margin-left: 300px;
+    width: 600px;
+    transform: rotate(180deg);
+    mix-blend-mode: luminosity;
+    animation-name: fadeIn;
+    animation-duration: 30s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    z-index: -1;
+}
+
+#fig {
+    position: fixed;
+    margin-top: -150px;
+    width: 550px;
+    transform: rotate(30deg);
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 0.7;}
+ } 
+
+/*.rectangle {
+    position: absolute;
+    height: 1920px;
+    width: 1180px;
+    background-color:floralwhite;
+    margin-top: 500px;
+    opacity: 100%;
+}*/

@@ -1,0 +1,40 @@
+body {
+    background-color:floralwhite;
+    margin-bottom: 100;
+}
+
+h1 {
+    color:rgb(0, 0, 0);
+    font-family: "IM Fell Double Pica";
+    font-size: 36pt;
+    margin-top: 100;
+    margin-left: 50px;
+}
+
+h3 {
+    color:rgb(10, 10, 10);
+    font-family: "IM Double Fell Pica";
+    font-size: 12pt;
+    margin-left: 50px;
+
+
+}
+
+p {
+    color: rgb(20, 20, 20);
+    font-family: "Halant";
+    font-size: 12pt;
+    margin-left: 100px;
+}
+
+a:link {
+    color: rgb(20, 20, 20);
+    font-family: "Halant";
+    font-size: 12pt;
+}
+
+a:visited {
+    color: rgb(20, 20, 20);
+    font-family: "Halant";
+    font-size: 12pt;
+}

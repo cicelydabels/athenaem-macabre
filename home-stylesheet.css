@@ -1,0 +1,136 @@
+body {
+    background-color:darkslategray;
+    margin-bottom: 100px;
+    cursor: url("assets/beetle.svg"), auto;
+}
+
+.Smoke-BG {
+    position: absolute;
+    mix-blend-mode: screen;
+    margin-top: -150px;
+    margin-left: -50px;
+    margin-right: -50px;
+    z-index: -1;
+    opacity: 80%;
+}
+
+/*#slate {
+    position: absolute;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    margin-left: -50px;
+    margin-right: -50px;
+    mix-blend-mode: overlay;
+    opacity: 30%;
+}*/
+
+h1 {
+    color:rgb(0, 0, 0);
+    font-family: "Italianno";
+    font-size: 200pt;
+    line-height: 75%;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 100;
+    z-index: -1;
+    mix-blend-mode: overlay;
+    opacity: 80%
+}
+
+h3 {
+    color: whitesmoke;
+    font-family: "IM Fell Double Pica";
+    font-size: 36px;
+    font-style: oblique;
+    text-align: center;
+    mix-blend-mode: overlay;
+}
+
+p {
+    color:whitesmoke;
+    font-family: "IM Fell Double Pica";
+    font-size: 18px;
+    text-align: center;
+    mix-blend-mode: overlay;
+}
+
+.welcome {
+    position: absolute;
+    margin-left: 650px;
+}
+
+.The-Raven {
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 275px;
+    transform: rotate(30deg);
+    mix-blend-mode: overlay;
+}
+
+.The-Black-Cat {
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 250px;
+    mix-blend-mode: overlay;
+}
+
+.The-Tell-Tale-Heart {
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 600px;
+    mix-blend-mode: overlay;
+}
+
+.Lenore {
+    position: absolute;
+    transform: rotate(75deg);
+    margin-top: -50px;
+    margin-left: 50px;
+    mix-blend-mode: overlay;
+    z-index: -1;
+}
+
+
+
+/*.The-City-In-The-Sea {
+    margin-left: 400;
+}
+
+.The-Tell-Tale-Heart {
+    margin-left: 400;
+}
+
+.The-Haunted-Palace {
+    margin-left: 400;
+}
+
+.The-Cask-of-Amontillado {
+    margin-left: 400;
+}
+
+.Ligeia {
+    margin-left: 400;
+}
+
+.Alone {
+    margin-left: 400;
+}*/
+
+.column {
+    float: left;
+    padding: 5px;
+}
+
+.row::after {
+    content: "The-Raven", "The-City-In-The-Sea", "The-Tell-Tale-Heart", "Ligeia";
+    clear: both;
+    display: table;
+}
+
+/*a.hover {
+    cursor: url(assets/flame.svg), auto;
+}*/
+
+/*.cursor {
+    cursor: url(landing_page-html/assets/beetle.png), auto;
+}*/
