@@ -4,6 +4,10 @@ body {
     font-family: "IM Fell Double Pica";
 }
 
+a:hover {
+    cursor: url("flame.svg"), auto;
+}
+
 .statue {
     margin-top: -10px;
     margin-left: -10px;
