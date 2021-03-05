@@ -1,7 +1,7 @@
 body {
     background-color:floralwhite;
     margin-bottom: 300;
-    cursor: url("assets/beetle.svg"), auto;
+    cursor: url("beetle.svg"), auto;
 }
 
 h1 {
