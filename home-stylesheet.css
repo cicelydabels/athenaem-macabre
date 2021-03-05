@@ -14,16 +14,6 @@ body {
     opacity: 80%;
 }
 
-/*#slate {
-    position: absolute;
-    margin-top: -50px;
-    margin-bottom: -50px;
-    margin-left: -50px;
-    margin-right: -50px;
-    mix-blend-mode: overlay;
-    opacity: 30%;
-}*/
-
 h1 {
     color:rgb(0, 0, 0);
     font-family: "Italianno";
@@ -90,32 +80,6 @@ p {
     z-index: -1;
 }
 
-
-
-/*.The-City-In-The-Sea {
-    margin-left: 400;
-}
-
-.The-Tell-Tale-Heart {
-    margin-left: 400;
-}
-
-.The-Haunted-Palace {
-    margin-left: 400;
-}
-
-.The-Cask-of-Amontillado {
-    margin-left: 400;
-}
-
-.Ligeia {
-    margin-left: 400;
-}
-
-.Alone {
-    margin-left: 400;
-}*/
-
 .column {
     float: left;
     padding: 5px;
@@ -126,11 +90,3 @@ p {
     clear: both;
     display: table;
 }
-
-/*a.hover {
-    cursor: url(assets/flame.svg), auto;
-}*/
-
-/*.cursor {
-    cursor: url(landing_page-html/assets/beetle.png), auto;
-}*/
